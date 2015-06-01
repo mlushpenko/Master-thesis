@@ -1,0 +1,16 @@
+% Chapter 1
+
+\chapter{Conclusion} % Main chapter title
+
+\label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 5. \emph{Conclusion}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+\noindent In this work we presented a DSL for the provisioning and deployment of multi-cloud applications which can be used as a library by third parties. In addition, we showed how this DSL was used in the CloudMF framework to combine declarative and imperative deployment approaches. The combination of both approaches allows application developers to deploy applications only by defining the desired final state of the system, while at the same time allowing them to tune the deployment process to their specific needs with help of the internal DSL. Internal DSL could also be used by reasoning engines to automatically update deployment plans according to the defined policies. 
+
+\noindent Moreover, a deployment engine was developed which allows cloud application owners to observe the progress of the deployment process in real-time. The real-time presentation of the deployment process makes it easier to debug applications and gives application operators a clear idea how and when every deployment operation is performed, thus, acting as a decision-support system for the optimization of the deployment process. The deployment engine can deploy applications using parallel or concurrent algorithms to reduce application delivery time, which were also developed as a part of this work. Benefits of such algorithms become essential in the large-scale installations. 
+
+\noindent Finally, we showed how deployment and provisioning DSL can be used in conjunction with model@runtime pattern to perform efficient continuous deployments of cloud applications. Such approach allows for faster redeployments and reduces the complexity of the continuous deployment process by generating adaptation plans which represent updates to the running system, rather than a whole new application state.
+
+\noindent Future work could include the evaluation of the deployment DSL to analyze if it is robust enough to be used in real-world scenarios. In addition, identification of multi-cloud deployment patterns could be interesting to improve the deployment plan generation mechanism. Last, but not least, combination of different deployment execution algorithms could lead to the invention of the next generation deployment engines.
